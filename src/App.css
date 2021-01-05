@@ -1,0 +1,97 @@
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+
+}
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.banner{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: white;
+
+}
+.announcement_btn{
+    background-color: #eb5757;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: #f9f9f9;
+    border:0;
+    outline:0;
+}
+
+.alert{
+    color: #f9f9f9;
+    font-size: 18px;
+}
+.navbar{
+    font-size: 18px;
+    display: flex;
+    background-color: #eb5757;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px ;
+    
+}
+.Logo_wrapper{
+    margin-left: 60px;
+}
+.menu_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 800px;
+
+}
+.menu_wrapper a{
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 16px;
+}
+.cartWrapper{
+    position: relative;
+    background-color: #222;
+    border-radius: 5px;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cart_icon{
+    margin-right: 0;
+    width: 20px;
+}
+.count{
+    color: black;
+    width: 5px;
+    height: 5%;
+    background-color: white;
+    padding: 8px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+.container{
+    margin-top: 10%;
+}
