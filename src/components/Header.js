@@ -10,7 +10,7 @@ class Header extends Component {
         return ( <nav>
             <div className='banner'>
                 <button className='announcement_btn'>Announcement</button>
-                <h4 className='alert'>How we're responding to COVID-19</h4>
+                <div className='alert'>How we're responding to COVID-19</div>
             </div>
             <div className='navbar'>
                 <div className='Logo_wrapper'>

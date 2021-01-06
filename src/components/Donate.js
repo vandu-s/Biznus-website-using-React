@@ -6,7 +6,7 @@ class Donate extends Component {
         this.state = {  }
     }
     render() { 
-        return (<div>
+        return (<div className='container'>
             <h1>Hello this is Donate Page</h1>
         </div>  );
     }

@@ -6,7 +6,7 @@ class Contact extends Component {
         this.state = {  }
     }
     render() { 
-        return (<div>
+        return (<div className='container'>
             <h1>Hello this is Contact Page</h1>
         </div>  );
     }

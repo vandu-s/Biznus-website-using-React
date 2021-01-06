@@ -6,7 +6,7 @@ class Error extends Component {
         this.state = {  }
     }
     render() { 
-        return (<div>
+        return (<div className='container'>
             <h1>Oops!Page not found</h1>
         </div>  );
     }

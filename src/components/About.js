@@ -5,7 +5,7 @@ class About extends Component {
         this.state = {  }
     }
     render() { 
-        return (<div>
+        return (<div className='container'>
             <h1>Hello this is About Page</h1>
         </div>  );
     }
