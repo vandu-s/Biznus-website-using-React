@@ -18,11 +18,11 @@ class Header extends Component {
                 </NavLink>
                 </div>
                <div className='menu_wrapper'>
-               <NavLink to='/'>Home</NavLink>
-               <NavLink  to='/about'>About</NavLink>
-               <NavLink  to='/shop'>Shop</NavLink>
-               <NavLink  to='/donate'>Donate</NavLink>
-               <NavLink  to='/contact'>Contact</NavLink>
+               <NavLink className='menu' to='/'>Home</NavLink>
+               <NavLink className='menu'  to='/about'>About</NavLink>
+               <NavLink className='menu'  to='/shop'>Shop</NavLink>
+               <NavLink className='menu'  to='/donate'>Donate</NavLink>
+               <NavLink className='menu'  to='/contact'>Contact</NavLink>
                <div className='cartWrapper'>
                 <img className='cart_icon' src='https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e86146bb854797d12a30a13_cart.svg'/>
                 <div className='count'>0</div>
