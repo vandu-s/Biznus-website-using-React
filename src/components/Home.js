@@ -67,10 +67,10 @@ class Home extends Component {
                 <div className='safe-section'>
                     <div className='container'>
                         <div className='safe-wrapper'>
-                            <h2 class="safe-heading">How we're keeping you safe during COVID-19</h2>
-                            <p class="safe-paragraph">As an outdoor shop, we’ve taken precautionary measures to ensure the safety of all our customers and team members.</p>
+                            <h2 className="safe-heading">How we're keeping you safe during COVID-19</h2>
+                            <p className="safe-paragraph">As an outdoor shop, we’ve taken precautionary measures to ensure the safety of all our customers and team members.</p>
                             <div className='safe-button-wrapper'>
-                                <a class="btn  white">Read Our Statement</a>
+                                <a className="btn  white">Read Our Statement</a>
                             </div>
                         </div>
                     </div>
@@ -78,85 +78,123 @@ class Home extends Component {
                 <div className='products-section'>
                     <div className='container'>
                         <div className='shop-top-wrapper'>
-                            <div class="support-top-left">
-                                <div class="support-top-details-text">shop products</div>
-                                <h2 class="support-top-heading">Open 24/7/365.</h2>
+                            <div className="support-top-left">
+                                <div className="support-top-details-text">shop products</div>
+                                <h2 className="support-top-heading">Open 24/7/365.</h2>
                             </div>
-                            <div class="support-top-right"></div>
+                            <div className="support-top-right"></div>
                         </div>
                         <div role='list' className='products-list-wrapper w-dyn-list'>
                             <div className='product-list'>
-                                <div role="listitem" class="w-dyn-item">
-                                    <div class="shop-item-wrapper">
-                                        <a class="shop-item-link-wrapper w-inline-block">
-                                            <div class="shop-image tumbler-1">
-                                                <div class="pill-2 badge primary sale w-condition-invisible">Sale</div>
+                                <div role="listitem" className="w-dyn-item">
+                                    <div className="shop-item-wrapper">
+                                        <a className="shop-item-link-wrapper w-inline-block">
+                                            <div className="shop-image tumbler-1">
+                                                <div className="pill-2 badge primary sale w-condition-invisible">Sale</div>
                                             </div>
-                                            <div class="shop-details-wrapper">
-                                                <div class="shop-details-left">
-                                                    <div class="shop-item-name">White Tent</div>
-                                                    <div class="price-wrapper">
-                                                        <div class="shop-item-price">$&nbsp;200.00&nbsp;USD</div>
-                                                        <div class="shop-item-price compare w-condition-invisible w-dyn-bind-empty">
+                                            <div className="shop-details-wrapper">
+                                                <div className="shop-details-left">
+                                                    <div className="shop-item-name">White Tent</div>
+                                                    <div className="price-wrapper">
+                                                        <div className="shop-item-price">$&nbsp;200.00&nbsp;USD</div>
+                                                        <div className="shop-item-price compare w-condition-invisible w-dyn-bind-empty">
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </a>
-                                        <div class="shop-button-wrapper">
-                                            <a class="pink black">Details</a>
+                                        <div className="shop-button-wrapper">
+                                            <a className="pink black">Details</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div role="listitem" class="w-dyn-item">
-                                    <div class="shop-item-wrapper">
-                                        <a class="shop-item-link-wrapper w-inline-block">
-                                            <div class="shop-image tumbler-2">
-                                                <div class="pill-2 badge primary sale w-condition-invisible">Sale</div>
+                                <div role="listitem" className="w-dyn-item">
+                                    <div className="shop-item-wrapper">
+                                        <a className="shop-item-link-wrapper w-inline-block">
+                                            <div className="shop-image tumbler-2">
+                                                <div className="pill-2 badge primary sale w-condition-invisible">Sale</div>
                                             </div>
-                                            <div class="shop-details-wrapper">
-                                                <div class="shop-details-left">
-                                                    <div class="shop-item-name">Tin Coffee Tumbler</div>
-                                                    <div class="price-wrapper">
-                                                        <div class="shop-item-price">$&nbsp;35.00&nbsp;USD</div>
-                                                        <div class="shop-item-price compare w-condition-invisible w-dyn-bind-empty">
+                                            <div className="shop-details-wrapper">
+                                                <div className="shop-details-left">
+                                                    <div className="shop-item-name">Tin Coffee Tumbler</div>
+                                                    <div className="price-wrapper">
+                                                        <div className="shop-item-price">$&nbsp;35.00&nbsp;USD</div>
+                                                        <div className="shop-item-price compare w-condition-invisible w-dyn-bind-empty">
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </a>
-                                        <div class="shop-button-wrapper">
-                                            <a class="pink black">Details</a>
+                                        <div className="shop-button-wrapper">
+                                            <a className="pink black">Details</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div role="listitem" class="w-dyn-item">
-                                    <div class="shop-item-wrapper">
-                                        <a class="shop-item-link-wrapper w-inline-block">
-                                            <div class="shop-image tumbler-3">
-                                                <div class="pill-2 badge primary sale w-condition-invisible">Sale</div>
+                                <div role="listitem" className="w-dyn-item">
+                                    <div className="shop-item-wrapper">
+                                        <a className="shop-item-link-wrapper w-inline-block">
+                                            <div className="shop-image tumbler-3">
+                                                <div className="pill-2 badge primary sale w-condition-invisible">Sale</div>
                                             </div>
-                                            <div class="shop-details-wrapper">
-                                                <div class="shop-details-left">
-                                                    <div class="shop-item-name">Blue Canvas Pack</div>
-                                                    <div class="price-wrapper">
-                                                        <div class="shop-item-price">$&nbsp;95.00&nbsp;USD</div>
-                                                        <div class="shop-item-price compare w-condition-invisible w-dyn-bind-empty">
+                                            <div className="shop-details-wrapper">
+                                                <div className="shop-details-left">
+                                                    <div className="shop-item-name">Blue Canvas Pack</div>
+                                                    <div className="price-wrapper">
+                                                        <div className="shop-item-price">$&nbsp;95.00&nbsp;USD</div>
+                                                        <div className="shop-item-price compare w-condition-invisible w-dyn-bind-empty">
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </a>
-                                        <div class="shop-button-wrapper">
-                                            <a class="pink black">Details</a>
+                                        <div className="shop-button-wrapper">
+                                            <a className="pink black">Details</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                        </div> 
-                        <div class="shop-more">
-                        <a  class="btn dark ">View All Products</a></div>
+                        </div>
+                        <div className="shop-more">
+                            <a className="btn dark ">View All Products</a></div>
+                    </div>
+                </div>
+                <div className='shop-local-section'>
+                    <div className='container shop-local-container'>
+                        <div className='shop-local-wrapper'>
+                            <div className="shop-local-left"></div>
+                            <div className='shop-local-right'>
+                                <div className='shop-local-content-wrapper'>
+                                    <h2 className="shop-local-heading">Shop Local.</h2>
+                                    <p>We know that during COVID-19, a lot of folks around the city and state are feeling uneasy about the future - we’re not sure what the future holds either.</p>
+                                    <p>That said: we know that we love making sure you have the gear you need for your adventures, and we’re going to keep doing that - with our team - until the city tells us we can’t.</p>
+                                    <p>But as long as folks like yourself support small businesses around the city, then we’ll be here — every day, making sure your orders arrive on time.</p>
+                                    <p>-------</p>
+                                    <div>Jane &amp; John Doe</div>
+                                    <div><strong>Acme Outdoors</strong></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='footer'>
+                    <div className='container'>
+                        <div className='footer-wrapper'>
+                            <div className='footer-logo-column'>
+                                <NavLink to='/' className="w-inline-block w--current"><img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e7ff57adad44d1f072965b6_logo.svg" alt="Acme Outdoors Logo" /></NavLink>
+                            </div>
+                            <div>
+                                <a href="https://twitter.com/webflow" target="_blank" className="social-footer-link w-inline-block">
+                                    <img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e8407a25b6234aeec960fb9_Twitter_Social_Icon_Rounded_Square_White.svg" width="30" alt="Twitter Logo" /></a>
+                                <a  href="https://www.facebook.com/webflow" target='_blank' className="social-footer-link w-inline-block">
+                                    <img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e8407aa3fb6cf5576f1658b_Facebook%20Logo.svg" width="30" alt="Facebook Logo" /></a>
+                                <a href="https://www.instagram.com/webflow/" target="_blank" className="social-footer-link w-inline-block">
+                                    <img src="https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e840774014326b74bbeeeb6_Insta.svg" width="30" alt="Instagram Logo" /></a>
+                            </div>
+                        </div>
+                        <div className="footer-bottom-wrapper">
+                            <div className="small footer-small">Made In <a className='webflow' target="_blank">Webflow</a>. © 2020.</div>
+                        </div>
                     </div>
                 </div>
 
