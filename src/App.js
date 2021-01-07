@@ -9,6 +9,8 @@ import Donate from "./components/Donate";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 
 
  class App extends Component {
@@ -30,6 +32,7 @@ import Header from "./components/Header";
        <Route  path='/donate' component={Donate}  />
        <Route  path='/contact' component={Contact}  />
        <Route   component={Error}  />
+       <Route path='/footer'component={Footer}/>
 
      </Switch>
      </BrowserRouter>

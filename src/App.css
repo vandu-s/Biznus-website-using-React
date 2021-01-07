@@ -13,11 +13,13 @@ body{
     font-size: 16px;
 
 }
+/* navbar starts*/
 nav{
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 100;
+    margin-bottom: 0;
 }
 .banner{
 display: flex;
@@ -125,7 +127,12 @@ padding: 18px 0;
     font-weight: 600;
     
 }
+/* navbar End*/
+
+/* Home section start*/
+
 .herosection{
+    margin-top: 0;
     min-height: 550px;
     background-image: linear-gradient(360deg, #222, rgba(34, 34, 34, 0)),url(https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83f98bae1ad80129fcd7e5_wu-jianxiong-UniC8xhlzaE-unsplash.jpg);
     background-position: 0px 0px,50% 50%;
@@ -171,8 +178,8 @@ padding: 18px 0;
     background-color: white;
     color: black;
 }
-.home-section{
-    margin-top: 10%;
+.section-wrapper{
+    margin-top: 9.5%;
 
 }
 .container{
@@ -526,4 +533,65 @@ small.footer-small {
 }
 .small {
     margin-bottom: 10px;
+}
+ /* Home section ends*/
+
+ /*donate section starts*/
+
+ .donate-explainer{
+    padding-top: 151px;
+    padding-bottom: 35px;
+    min-height: 550px;
+    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.56), #222),url('https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e85758a28ae07433140f0cb_jed-villejo-bEcC0nyIp2g-unsplash%20(1)%20(1).jpg');
+    background-position: 0px 0px,50% 25%;
+    background-size: auto, cover;
+    color: #f9f9f9;
+}
+.donate-heading-1{
+    text-align:  center;
+    font-weight: 800;
+    font-size: 38px;
+    margin-bottom: -5px;
+}
+.donate-heading-2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+.donate-paragraph{
+    margin-left: auto;
+    margin-right: auto;
+     text-align: center;
+   width: 65%;
+}
+.content-section{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.donate-wrapper {
+    width: 50%;
+     margin-right: auto;
+    margin-left: auto;
+    padding: 30px 30px 10px;
+    border: 2px solid #222;
+    border-radius: 5px;
+}
+.donate-link-block {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #eb5757;
+    transition: background-color 300ms ease;
+    color: #f9f9f9;
+    text-align: center;
+    text-decoration: none;
+}
+.text-block {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    color: #f9f9f9;
+    font-size: 24px;
+    font-weight: 800;
+    cursor: pointer;
 }
