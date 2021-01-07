@@ -20,30 +20,30 @@ class Donate extends Component {
                 <div className='container'>
                     <div className='donate-wrapper'>
                         <div className='donate-collection w-dyn-list'>
-                            <div role="list" class="w-dyn-items">
-                                <div role="listitem" class="w-dyn-item">
-                                    <a href="/product/donate-100" class="donate-link-block w-inline-block">
-                                        <div class="text-block">Donate $100</div>
+                            <div role="list" className="w-dyn-items">
+                                <div role="listitem" className="w-dyn-item">
+                                    <a href="/product/donate-100" className="donate-link-block w-inline-block">
+                                        <div className="text-block">Donate $100</div>
                                     </a>
                                 </div>
-                                <div role="listitem" class="w-dyn-item">
-                                    <a href="/product/donate-50" class="donate-link-block w-inline-block">
-                                        <div class="text-block">Donate $50</div>
+                                <div role="listitem" className="w-dyn-item">
+                                    <a href="/product/donate-50" className="donate-link-block w-inline-block">
+                                        <div className="text-block">Donate $50</div>
                                     </a>
                                 </div>
-                                <div role="listitem" class="w-dyn-item">
-                                    <a href="/product/donate-25" class="donate-link-block w-inline-block">
-                                        <div class="text-block">Donate $25</div>
+                                <div role="listitem" className="w-dyn-item">
+                                    <a href="/product/donate-25" className="donate-link-block w-inline-block">
+                                        <div className="text-block">Donate $25</div>
                                     </a>
                                 </div>
-                                <div role="listitem" class="w-dyn-item">
-                                    <a href="/product/donate-15" class="donate-link-block w-inline-block">
-                                        <div class="text-block">Donate $15</div>
+                                <div role="listitem" className="w-dyn-item">
+                                    <a href="/product/donate-15" className="donate-link-block w-inline-block">
+                                        <div className="text-block">Donate $15</div>
                                     </a>
                                 </div>
-                                <div role="listitem" class="w-dyn-item">
-                                    <a href="/product/donate-5" class="donate-link-block w-inline-block">
-                                        <div class="text-block">Donate $5</div>
+                                <div role="listitem" className="w-dyn-item">
+                                    <a href="/product/donate-5" className="donate-link-block w-inline-block">
+                                        <div className="text-block">Donate $5</div>
                                     </a>
                                 </div>
                             </div>

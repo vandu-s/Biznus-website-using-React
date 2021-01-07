@@ -1,7 +1,6 @@
 import react, {Component} from 'react';
 import './App.css'
 import {BrowserRouter ,Route,Switch} from 'react-router-dom'
-// import About from "./About";
 import Home from "./components/Home";
 import About from "./components/About";
 import Shop from "./components/Shop";
@@ -9,7 +8,6 @@ import Donate from "./components/Donate";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 
 
 
@@ -32,7 +30,6 @@ import Footer from "./components/Footer";
        <Route  path='/donate' component={Donate}  />
        <Route  path='/contact' component={Contact}  />
        <Route   component={Error}  />
-       <Route path='/footer'component={Footer}/>
 
      </Switch>
      </BrowserRouter>

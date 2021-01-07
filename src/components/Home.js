@@ -11,7 +11,7 @@ class Home extends Component {
     render() {
         return (
             <div className='section-wrapper'>
-                <div className='herosection'>
+                <div className='hero-section'>
                     <div className='container'>
                         <div className='hero_wrapper'>
                             <h1 className='hero-heading'>
