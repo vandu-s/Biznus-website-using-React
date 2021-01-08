@@ -7,6 +7,39 @@
     .hero-heading {
         width: 60%;
     }
+    .contact-hero-bg-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .container.contact {
+        position: static;
+        padding-bottom: 35px;
+    }
+    .contact-block-wrapper {
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .contact-block {
+        width: 48%;
+        margin-right: 0px;
+    }
+    .contact-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .contact-right {
+        width: 100%;
+        padding-left: 0px;
+    }
+    
 }
 
 @media screen and (max-width: 479px){
