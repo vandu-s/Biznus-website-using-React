@@ -927,3 +927,99 @@ textarea.w-input, textarea.w-select {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+/*shop page starts*/
+.page-title-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #222;
+    color: #f9f9f9;
+}
+.content-section.featured-section {
+    padding-bottom: 0px;
+}
+.featured-wrapper{
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    min-height: 250px;
+    border-radius: 5px;
+    background-image: url('https://assets.website-files.com/5e853c3383474026e43f2c78/5e856e41c718420c18dd6751_patrick-hendry-eDgUyGu93Yw-unsplash.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    color: #f9f9f9;
+    text-decoration: none;
+}
+.pill-2.badge.primary.featured {
+    position: absolute;
+    left: auto;
+    top: 8%;
+    right: 1%;
+    bottom: auto;
+    z-index: 10;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #222;
+}
+.pill-2.badge {
+    border-radius: 0px;
+}
+.pill-2 {
+    margin-right: 10px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #1976d2;
+    color: #f9f9f9;
+}
+.feature-text-wrapper {
+    position: absolute;
+    left: 2%;
+    top: auto;
+    right: auto;
+    bottom: 6%;
+    z-index: 10;
+}
+.featured-gradient-overlay {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    border-radius: 5px;
+    background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.22), rgba(34, 34, 34, 0.69));
+}
+.shop-page-wrapper {
+    display: flex}
+
+ .shop-category-menu {
+        width: 20%;
+        padding-right: 25px;
+    }
+    .category-menu-heading {
+        margin-top: 0px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .category-menu-item {
+        margin-bottom: 10px;
+    }
+    .blackandwhite {
+        width: 100%;
+        border: 1px solid black;
+        text-decoration: none;
+        color:black;
+        display: block;
+        cursor: pointer;
+        font-weight: 600;
+        transition: border-color 300ms ease, background-color 300ms ease;
+
+
+    }
+    .btn.blackandwhite:hover {
+        background-color: black;
+        color: white;
+    }
+    .shop-image.tumbler-1.narrow-list {
+        min-height: 400px;
+    }
+    
