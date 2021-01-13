@@ -17,7 +17,7 @@ class ContactForm extends Component {
     submitHandler= e=>{
         e.preventDefault();
         console.log(this.state);
-        axios.post('https://jsonplaceholder.typicode.com/pos',this.state)
+        axios.post('https://jsonplaceholder.typicode.com/posts',this.state)
         .then(Response=>{
             console.log(Response)
             alert("Thank you! Your submission has been received! We'll be in touch soon! ")
