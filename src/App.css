@@ -115,10 +115,10 @@ nav {
 
 .count {
     color: black;
-    width: 5px;
+    width: 5%;
     height: 5%;
     background-color: white;
-    padding: 8px 6px;
+    padding: 9px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -991,13 +991,14 @@ textarea.w-input, textarea.w-select {
     display: flex}
 
  .shop-category-menu {
-        width: 20%;
         padding-right: 25px;
+        width: 20%;
     }
     .category-menu-heading {
         margin-top: 0px;
         font-size: 18px;
         line-height: 1.5;
+        width: 180px
     }
 
     .category-menu-item {
@@ -1022,4 +1023,44 @@ textarea.w-input, textarea.w-select {
     .shop-image.tumbler-1.narrow-list {
         min-height: 400px;
     }
+    .products-list {
+        margin: 0 auto;
+        
+    }
+    .shop-item-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: calc(30% - 10px);
+        margin: 5px 10px;
+        cursor: pointer;
+    }
+    .card-img-top{
+        height: 175px;
+        width: 100%;
+        display: block;
+        object-fit: cover;
+        border-radius: 10px;
+
+    }
+    .card-body{
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .card-title{  color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
     
+}
+.card-text{
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin: 5px 0 ;
+}

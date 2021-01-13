@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Card from '../components/Card'
 import axios from 'axios'
 class Shop extends Component {
     constructor(props) {
@@ -8,7 +9,7 @@ class Shop extends Component {
         }
     }
     componentDidMount(){
-          axios.get('https://5d76bf96515d1a0014085cf9.mockapi.io/product')
+          axios.get('https://course-api.com/react-store-products')
         .then(response=>{
              console.log('rensponsedata',response.data); 
              this.setState({apiData:response.data})
@@ -68,13 +69,12 @@ class Shop extends Component {
                                 <div className="products-list w-dyn-items">
                                   <div className="w-dyn-item">
                                   <div className="shop-item-wrapper">
-                                {apiData?.map((item,key)=><div className="col-4">
-                                    <div>
-                                        <img src={item.preview} alt=""/>
-                                        <p>{item.price}</p>
-                                    </div>
-                            </div>
-                        )}
+                                  {apiData?.map((item,index) =>
+                                  <Card
+                                  index={index}
+                                  product ={item}
+/>
+                                            )}
 
                                   </div>
                                   </div>
@@ -91,3 +91,6 @@ class Shop extends Component {
 }
 
 export default Shop;
+
+
+
