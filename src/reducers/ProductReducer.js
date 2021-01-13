@@ -1,7 +1,7 @@
 import * as types from '../types/type';
 const initialState = {
     product:[],
-    cartProduct:[{price:23,name:'vandana'}]
+    cartProduct:[]
 
 
 }

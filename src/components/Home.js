@@ -8,6 +8,11 @@ class Home extends Component {
         super(props);
         this.state = {}
     }
+    componentDidMount() {
+        window.scrollTo(0, 0)
+
+    }
+
     render() {
         return (
             <div className='section-wrapper'>
@@ -104,10 +109,11 @@ class Home extends Component {
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div className="shop-button-wrapper">
+                                                <a className="pink black">Details</a>
+                                            </div>
+
                                         </a>
-                                        <div className="shop-button-wrapper">
-                                            <a className="pink black">Details</a>
-                                        </div>
                                     </div>
                                 </div>
                                 <div role="listitem" className="w-dyn-item">
@@ -126,10 +132,11 @@ class Home extends Component {
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div className="shop-button-wrapper">
+                                                <a className="pink black">Details</a>
+                                            </div>
+
                                         </a>
-                                        <div className="shop-button-wrapper">
-                                            <a className="pink black">Details</a>
-                                        </div>
                                     </div>
                                 </div>
                                 <div role="listitem" className="w-dyn-item">
@@ -148,17 +155,18 @@ class Home extends Component {
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div className="shop-button-wrapper">
+                                                <a className="pink black">Details</a>
+                                            </div>
+
                                         </a>
-                                        <div className="shop-button-wrapper">
-                                            <a className="pink black">Details</a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
                         <div className="shop-more">
-                            <a className="btn dark ">View All Products</a></div>
+                         <NavLink to='/shop'><button className="btn dark">View All Products</button></NavLink></div>
                     </div>
                 </div>
                 <div className='shop-local-section'>
@@ -179,7 +187,7 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
-                <Footer/>
+                <Footer />
             </div>//Home section
         );
 

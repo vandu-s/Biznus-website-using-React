@@ -14,7 +14,8 @@ class Shop extends Component {
              console.log('rensponsedata',response.data); 
              this.setState({apiData:response.data})
          })
-
+            window.scrollTo(0, 0)    
+      
     }
     render() {
         let {apiData}=this.state;

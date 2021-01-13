@@ -8,6 +8,7 @@ import Donate from "./components/Donate";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import Header from "./components/Header";
+import Announcement from './components/Announcement';
 
 
 
@@ -18,7 +19,6 @@ import Header from "./components/Header";
        title:'edyoda'
       }
    }
-    
   render() { 
      return ( <>
      <BrowserRouter>
@@ -29,6 +29,7 @@ import Header from "./components/Header";
        <Route  path='/shop' component={Shop}  />
        <Route  path='/donate' component={Donate}  />
        <Route  path='/contact' component={Contact}  />
+       <Route path='/announcement' component={Announcement}/>
        <Route   component={Error}  />
 
      </Switch>

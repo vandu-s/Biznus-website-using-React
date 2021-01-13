@@ -1,11 +1,13 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import {NavLink,Link} from 'react-router-dom';
 import {connect} from 'react-redux';
+import Announcement from '../components/Announcement'
+
 
 const Header = ({count,cartProduct}) => {
     return ( <nav>
         <div className='banner'>
-            <button className='announcement_btn'>Announcement</button>
+           <Link to='/announcement'> <button className='announcement_btn'>Announcement</button></Link>
             <div className='alert'>How we're responding to COVID-19</div>
         </div>
         <div className='navbar'>

@@ -6,8 +6,14 @@ class Error extends Component {
         this.state = {  }
     }
     render() { 
-        return (<div className='container'>
-            <h1>Oops!Page not found</h1>
+        return (<div className='section-wrapper'>
+            <div className="content-section">
+                <div className="container">
+                    <div className="w-richtext">
+                    <h1 className='error-text'>Ooops!Page not Found </h1>
+                    </div>
+                </div>
+            </div>
         </div>  );
     }
 }
