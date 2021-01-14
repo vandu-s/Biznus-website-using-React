@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Biznus-website-using-React/static/css/main.dc8c730c.chunk.css",
+    "main.js": "/Biznus-website-using-React/static/js/main.147c2808.chunk.js",
+    "main.js.map": "/Biznus-website-using-React/static/js/main.147c2808.chunk.js.map",
+    "runtime-main.js": "/Biznus-website-using-React/static/js/runtime-main.77143059.js",
+    "runtime-main.js.map": "/Biznus-website-using-React/static/js/runtime-main.77143059.js.map",
+    "static/js/2.1ddc73fc.chunk.js": "/Biznus-website-using-React/static/js/2.1ddc73fc.chunk.js",
+    "static/js/2.1ddc73fc.chunk.js.map": "/Biznus-website-using-React/static/js/2.1ddc73fc.chunk.js.map",
+    "static/js/3.c963656d.chunk.js": "/Biznus-website-using-React/static/js/3.c963656d.chunk.js",
+    "static/js/3.c963656d.chunk.js.map": "/Biznus-website-using-React/static/js/3.c963656d.chunk.js.map",
+    "index.html": "/Biznus-website-using-React/index.html",
+    "static/css/main.dc8c730c.chunk.css.map": "/Biznus-website-using-React/static/css/main.dc8c730c.chunk.css.map",
+    "static/js/2.1ddc73fc.chunk.js.LICENSE.txt": "/Biznus-website-using-React/static/js/2.1ddc73fc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77143059.js",
+    "static/js/2.1ddc73fc.chunk.js",
+    "static/css/main.dc8c730c.chunk.css",
+    "static/js/main.147c2808.chunk.js"
+  ]
+}
