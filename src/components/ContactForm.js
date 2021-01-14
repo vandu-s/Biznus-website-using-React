@@ -8,17 +8,21 @@ class ContactForm extends Component {
     
             email:'',
             Message:'',
-            names:''
+            names:'',
+            msgText:false,
+            postResponse:false
         }
     }
     changeHandler=(e)=>{
         this.setState({[e.target.name]:e.target.value})
+
     }
     submitHandler= e=>{
         e.preventDefault();
         console.log(this.state);
         axios.post('https://jsonplaceholder.typicode.com/posts',this.state)
-        .then(Response=>{
+        .then(Response=> {
+            this.setState({postResponse:Response})
             console.log(Response)
             alert("Thank you! Your submission has been received! We'll be in touch soon! ")
         })
@@ -29,7 +33,7 @@ class ContactForm extends Component {
 
     }
     render() {
-        // const{name,email,msg}=this.state;
+        const{postResponse}=this.state;
         return (
             <div id="contact" className="contact-section">
                 <div className="container">
@@ -53,13 +57,7 @@ class ContactForm extends Component {
                                     <label for="Message">Your Message</label>
                                     <textarea onChange={this.changeHandler} value={this.setState.Message} placeholder="Enter your message" maxlength="5000"  name="Message"  className="input w-input"></textarea>
                                     <input  type="submit" value="Submit" data-wait="Please wait..." className="pink bl"></input>
-                                </form>
-                                <div className="success w-form-done">
-                                    <div>Thank you! Your submission has been received! We'll be in touch soon!</div>
-                                </div>
-                                <div className="error w-form-fail">
-                                    <div>Oops! Something went wrong while submitting the form.</div>
-                                </div>
+                                </form> <br/> <br/>
 
                             </div>
                         </div>

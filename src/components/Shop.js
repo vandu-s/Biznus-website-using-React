@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Card from '../components/Card'
-import axios from 'axios'
+import axios from 'axios';
+import Footer from '../components/Footer';
 class Shop extends Component {
     constructor(props) {
         super(props);
@@ -20,9 +21,9 @@ class Shop extends Component {
     render() {
         let {apiData}=this.state;
         return (<div className='section-wrapper'>
-            <div class="page-title-section">
-                <div class="container">
-                    <h1 class="page-title">Shop Our Products </h1>
+            <div className="page-title-section">
+                <div className="container">
+                    <h1 className="page-title">Shop Our Products </h1>
                 </div>
             </div>
             <div className="content-section featured-section">
@@ -31,11 +32,11 @@ class Shop extends Component {
                         <div role='list' className="w-dyn-items">
                             <div role='listitem' className="w-dyn-item">
                                 <a className='featured-wrapper w-inline-block'>
-                                    <div class="pill-2 badge primary featured">Featured Item</div>
-                                    <div class="feature-text-wrapper">
-                                        <h3 class="featured-item-name">White Tent</h3>
-                                        <div class="featured-price">$&nbsp;200.00&nbsp;USD</div></div>
-                                    <div class="featured-gradient-overlay"></div>
+                                    <div className="pill-2 badge primary featured">Featured Item</div>
+                                    <div className="feature-text-wrapper">
+                                        <h3 className="featured-item-name">White Tent</h3>
+                                        <div className="featured-price">$&nbsp;200.00&nbsp;USD</div></div>
+                                    <div className="featured-gradient-overlay"></div>
                                 </a>
 
                             </div>
@@ -47,22 +48,22 @@ class Shop extends Component {
                 <div className="container">
                     <div className="shop-page-wrapper">
                         <div className="shop-category-menu">
-                            <h2 class="category-menu-heading">Shop by Category</h2>
+                            <h2 className="category-menu-heading">Shop by Category</h2>
                             <div className="w-dyn-list">
                                 <div role='list' className="w-dyn-items">
                                     <div role='listitem' className="category-menu-item w-dyn-item">
-                                        <a href="/category/gift-cards" class="btn blackandwhite">Gift Cards</a>
+                                        <a href="/category/gift-cards" className="btn blackandwhite">Gift Cards</a>
                                     </div>
-                                    <div role="listitem" class="category-menu-item w-dyn-item">
-                                        <a href="/category/tents" class="btn blackandwhite">Tents</a>
+                                    <div role="listitem" className="category-menu-item w-dyn-item">
+                                        <a href="/category/tents" className="btn blackandwhite">Tents</a>
                                     </div>
                                 </div>
-                                <div role="listitem" class="category-menu-item w-dyn-item">
-                                    <a href="/category/accessories" class="btn blackandwhite">Accessories</a>
+                                <div role="listitem" className="category-menu-item w-dyn-item">
+                                    <a href="/category/accessories" className="btn blackandwhite">Accessories</a>
                                 </div>
                             </div>
-                            <div role="listitem" class="category-menu-item w-dyn-item">
-                                <a href="/category/packs" class="btn blackandwhite">Packs</a>
+                            <div role="listitem" className="category-menu-item w-dyn-item">
+                                <a href="/category/packs" className="btn blackandwhite">Packs</a>
                             </div>
                         </div>
                         <div className="shop-list">
@@ -86,6 +87,7 @@ class Shop extends Component {
 
                 </div>
             </div>
+            <Footer/>
         </div>// shop wrapper
         );
     }

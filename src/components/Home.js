@@ -77,7 +77,7 @@ class Home extends Component {
                             <h2 className="safe-heading">How we're keeping you safe during COVID-19</h2>
                             <p className="safe-paragraph">As an outdoor shop, we’ve taken precautionary measures to ensure the safety of all our customers and team members.</p>
                             <div className='safe-button-wrapper'>
-                                <a className="btn  white">Read Our Statement</a>
+                             <NavLink to='/announcement'>   <a className="btn  white">Read Our Statement</a></NavLink>
                             </div>
                         </div>
                     </div>

@@ -11,6 +11,9 @@ body {
     font-size: 16px;
     background-color: #fff;
 }
+a{
+    text-decoration: none;
+}
 
 /* navbar starts*/
 
@@ -898,15 +901,7 @@ textarea.w-input, textarea.w-select {
     height: auto;
 }
 
-.success {
-    min-height: 280px;
-    padding-top: 125px;
-    border-radius: 5px;
-    background-color: #20c788;
-    color: #f9f9f9;
-}
 .w-form-done {
-    display: none;
     padding: 20px;
     text-align: center;
     background-color: #dddddd;
@@ -916,6 +911,14 @@ textarea.w-input, textarea.w-select {
     background-color: #e53935;
     color: #f9f9f9;
 }
+.success {
+    min-height: 280px;
+    padding-top: 125px;
+    border-radius: 5px;
+    background-color: #20c788;
+    color: #f9f9f9;
+}
+
 .w-form-fail {
     display: none;
     margin-top: 10px;

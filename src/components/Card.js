@@ -1,16 +1,15 @@
-import react from 'react';
 import {connect} from 'react-redux';
 import {addProduct} from '../action/actionCreator';
 
 const Card = ({product,addProductToCart}) => {
     let {image,name,price,index}=product;
     return ( 
-        <div class="card" key={index}>
-        <img class="card-img-top" src={image} alt="Card image cap" />
-        <div class="card-body">
-            <div class="card-title">{name} </div>
-            <div class="card-text">{`$ ${price/1000} USD`}</div>
-            <button onClick={()=>addProductToCart(product)}  class="btn pink black">Add to Cart</button>
+        <div className="card" key={index}>
+        <img className="card-img-top" src={image} alt="Card image cap" />
+        <div className="card-body">
+            <div className="card-title">{name} </div>
+            <div className="card-text">{`$ ${price/1000} USD`}</div>
+            <button onClick={()=>addProductToCart(product)}  className="btn pink black">Add to Cart</button>
         </div>
     </div>
 
