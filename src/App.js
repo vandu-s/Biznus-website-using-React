@@ -1,6 +1,6 @@
 import  {Component} from 'react';
 import './App.css'
-import {BrowserRouter ,Route,Switch} from 'react-router-dom'
+import {BrowserRouter ,Route,Switch,Redirect} from 'react-router-dom'
 import Home from "./components/Home";
 import About from "./components/About";
 import Shop from "./components/Shop";
@@ -30,7 +30,8 @@ import Announcement from './components/Announcement';
        <Route  path='/donate' component={Donate}  />
        <Route  path='/contact' component={Contact}  />
        <Route path='/announcement' component={Announcement}/>
-       <Route   component={Error}  />
+       {/* <Route   component={Error}  /> */}
+       <Redirect to='/'/>
 
      </Switch>
      </BrowserRouter>

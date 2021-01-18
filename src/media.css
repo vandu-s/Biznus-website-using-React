@@ -47,9 +47,6 @@
     flex-direction: column;
 }
 .shop-page-wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
 }
 
@@ -78,13 +75,7 @@
         flex-wrap: wrap;
     }
     .owner-bios-wrapper {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
         flex-direction: column;
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
     .owner-bio {
