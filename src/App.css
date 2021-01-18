@@ -93,13 +93,14 @@ nav {
 
 } */
 
-/* .menu:hover{
+.menu:hover{
     color: white;
     background-color: black;
     padding: 4px 8px;
     border-radius: 8px;
+    transition: 1s all;
   
-} */
+}
 
 .cartWrapper {
     position: relative;
